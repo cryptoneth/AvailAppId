@@ -120,7 +120,9 @@ starkli --version
 export STARKNET_RPC="http://localhost:9944/"
 
 
-Madara Get Started نصب
+------------------------
+
+Madara نصب
 
 
 git clone https://github.com/karnotxyz/madara-get-started
