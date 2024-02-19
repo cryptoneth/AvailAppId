@@ -78,6 +78,8 @@ go run main.go
 
 
 اپدیت نود به  node v20.5.1
+
+
 sudo apt update
 
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
