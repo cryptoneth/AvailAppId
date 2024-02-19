@@ -16,6 +16,8 @@ Golderg.Avail  از تو ستینگ ببین ولت PolkaDot  رو میشناس�
 
 مثل فیلم دیگه اسمی که ثبت شد ایدی اپچین رو بگیر
 
+
+
 https://app-id-gen.vercel.app
 
 
@@ -23,7 +25,11 @@ https://app-id-gen.vercel.app
 
 مثل باقی فیلم با این رشته کد
 
+
+
 nano /root/.madara/app-chains/(YourAppChainName)/da-config.json
+
+
 
 وارد فایل Json شو . قسمت App Id  رو تغیر بده رو ایدی خودت . 
 
@@ -37,14 +43,22 @@ Crtl X
 کامند های مرسوم اسکرین
 
 screen -ls  لیستشون
+
+
 screen -x ورود بهش
+
+
 screen -s ساختش
 
 بعد همه این دستور ساخت و ورود باید ایدی بدی یا اسم
 
 بعدش مجدد مثل فیلم 
 
+
+
 ./target/release/madara run
+
+
 
 یه بار دیگه نود رو ران کن تو اسکرین مربوطش
 
@@ -65,26 +79,55 @@ go run main.go
 
 اپدیت نود به  node v20.5.1
 sudo apt update
+
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
+
+
 sudo apt install curl
+
+
 wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
+
+
 source ~/.bashrc
-nvm --version    ---out---> v 0.39.7
+
+
+nvm --version  
+
+
 nvm ls
+
+
 nvm ls-remote
+
+
 nvm install v20.5.1
 
 نصب starkli
 curl https://get.starkli.sh | sh
+
+
 starkliup
-starkli --version    ---out--> v 0.2.5
+
+
+starkli --version   
+
+
 export STARKNET_RPC="http://localhost:9944/"
 
 
 Madara Get Started نصب
+
+
 git clone https://github.com/karnotxyz/madara-get-started
+
+
 cd ./madara-get-started
+
+
 npm i
+
+
 cd
 
 
@@ -92,10 +135,16 @@ cd
 
 
 Declare  کانترکت 
+
+
 node ./madara-get-started/scripts/declare.js ./madara-get-started/contracts/OpenZeppelinAccountCairoOne.sierra.json ./madara-get-started/contracts/OpenZeppelinAccountCairoOne.casm.json
 
 ساخت کانترکت
+
+
 node ./madara-get-started/scripts/deploy.js ./madara-get-started/contracts/OpenZeppelinAccountCairoOne.sierra.json 0x1  
+
+
 
 
 ویدیو رو بادقت ببین . دقت کن گفتم اگر مشکل خوردی ورژن از نود بگیر حتما دیدی این ورژن نیست هی اپدیت کن
