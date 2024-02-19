@@ -106,6 +106,8 @@ nvm ls-remote
 nvm install v20.5.1
 
 نصب starkli
+
+
 curl https://get.starkli.sh | sh
 
 
